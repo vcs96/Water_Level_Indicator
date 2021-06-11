@@ -1,1 +1,2 @@
 # Water Level Indicator using LabVIEW
+The LabVIEW project indicates the level of water in a tank. The user can control the speed of the water flowing in and flowing out of the 100 litre tank by using the vertical and horizontal pointer slides. There are three LEDs indicating how much of the tank is filled – empty, half full and full. There’s also a beeping alarm that gets triggered when the water level crosses 90 litres.
