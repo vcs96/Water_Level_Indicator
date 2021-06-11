@@ -1,8 +1,18 @@
 • The block diagram is a while loop which is controlled by the stop button.
+
 • The Flow in and Flow out is first subtracted using the Subtract function.
-• It is then connected to an dd function where the other input is the output itself, making it a feedback system. The feedback node must be initalised to 0 after each loop iterates. This is done by right clicking it and setting Move Initializer One Loop Out to 0.
-• The output is then connected to the comparison function In Range and Coerce where the output is connected in the middle, the lower limit is set to 0 and upper limit is set to 100. The coerce output is considered.
+
+• It is then connected to an add function where the other input is the output itself, making it a feedback system. The feedback node must be initalised to 0 after each loop
+  iterates. This is done by right clicking it and setting Move Initializer One Loop Out to 0.
+ 
+• The output is then connected to the comparison function In Range and Coerce where the output is connected in the middle, the lower limit is set to 0 and upper limit is set to 100.
+  The coerce output is considered.
+  
 • This is then connected to the tank and the three LEDs.
-• The LEDs have a comparison function between the output and a constant. If the water level is less than 10 then it is empty. Greater than 50 then it is half full. Greater than 90 then completely full.
+
+• The LEDs have a comparison function between the output and a constant. If the water level is less than 10 then it is empty. Greater than 50 then it is half full. Greater than 90
+then completely full.
+
 • TANK FULL LED is connected to the Beep.vi through the use system alert option to get the alarm when the tank is filled.
+
 • The Wait (ms) timing function with milliseconds to wait set as 1000ms is used as the timer for this project because the rate of flow of water in and out of the tank is 1 litre/s.
