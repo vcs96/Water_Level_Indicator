@@ -1,6 +1,6 @@
 • The block diagram is a while loop which is controlled by the stop button.
 
-• The Flow in and Flow out is first subtracted using the Subtract function.
+• The Flow in and Flow out is first subtracted using the subtract function.
 
 • It is then connected to an add function where the other input is the output itself, making it a feedback system. The feedback node must be initalised to 0 after each loop
   iterates. This is done by right clicking it and setting Move Initializer One Loop Out to 0.
