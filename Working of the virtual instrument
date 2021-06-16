@@ -11,7 +11,7 @@
 • This is then connected to the tank and the three LEDs.
 
 • The LEDs have a comparison function between the output and a constant. If the water level is less than 10 then it is empty. Greater than 50 then it is half full. Greater than 90
-then completely full.
+  then completely full.
 
 • TANK FULL LED is connected to the Beep.vi through the use system alert option to get the alarm when the tank is filled.
 
